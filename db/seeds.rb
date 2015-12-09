@@ -5,6 +5,6 @@
 #
 #   Person.create(first_name: 'Eric', last_name: 'Kelly')
 
-recipe = Recipe.create(title: "Mashroom soup", servings: 2)
+recipe = Recipe.create(title: "Brussels sprouts", servings: 2)
 
-comment = Comment.create(body: "Wow", recipe_id: recipe.id)
+comment = Comment.create(body: "Wow this is so great", recipe_id: recipe.id)
